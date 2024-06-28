@@ -18,7 +18,7 @@ const App = () => {
   }
 
 const partNames=course.parts.map(part=>part.name)
-const totalExercises=course.parts.reduce((sum,part)=>sum+parts.exercises,0)
+const totalExercises=course.parts.reduce((sum,parts)=>sum+parts.exercises,0)
 
 const Header = ({course})=>{
   return (
